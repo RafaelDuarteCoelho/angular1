@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+fieldset {
+  box-sizing: border-box;
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border: 10px double var(--azul_esverdeado);
+  border-radius: 25px;
+  background-color: var(--verde_claro);
+}
+
+form {
+  height: 40vh;
+  width: 50%;
+  border: dotted 4px purple;
+  border-radius: 10px;
+	line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 40%;
+}

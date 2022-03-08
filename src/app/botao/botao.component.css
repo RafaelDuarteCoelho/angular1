@@ -1,0 +1,14 @@
+.botao{
+  display: flex;
+  justify-content: center;
+}
+
+#aperta{
+  height: 2.5em;
+  width: 40%;
+  border: none;
+
+  background-color: snow;
+
+  font-weight: 3rem;
+}
